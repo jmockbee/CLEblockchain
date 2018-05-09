@@ -6,3 +6,6 @@ This is a basic block. You can see it has been tested in the terminal used "dev-
 
 ### genesis block created succesfully tested 
 ![image](https://user-images.githubusercontent.com/25730453/39732434-4ebad306-523b-11e8-9de3-aa6dd299c132.png)
+
+### first generation tested
+![image](https://user-images.githubusercontent.com/25730453/39791389-6fb05af8-5309-11e8-9ba5-4f228ea4463e.png)
