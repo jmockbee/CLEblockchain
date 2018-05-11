@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jmockbee/CLEblockchain/issues"
   },
-  "homepage": "https://github.com/jmockbee/CLEblockchain#readme"
+  "homepage": "https://github.com/jmockbee/CLEblockchain#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
 }

@@ -9,3 +9,24 @@ This is a basic block. You can see it has been tested in the terminal used "dev-
 
 ### first generation tested
 ![image](https://user-images.githubusercontent.com/25730453/39791389-6fb05af8-5309-11e8-9ba5-4f228ea4463e.png)
+
+
+##5/10/18
+
+### algorithm  SHA-256  secure S, hash H,  algorithm  A,  256 bits for the hash  or 32 bytes or characters gernrated to represent the hash 
+
+    makes a unique has value (32-byte for each block )
+    Its a one way hash from the direction of the data to the hash makes it easy to check blocks see if data has been tampered with 
+
+ ### installed dependencies interminal 
+         npm i crypto-js  --save
+
+         check to make sure installed  cat package.json 
+
+         const SHA256 = require ('crypto-js/sha256');     is a function that generates a unique hash based of data 
+
+
+
+
+
+
