@@ -13,7 +13,7 @@ This is a basic block. You can see it has been tested in the terminal used "dev-
 
 ##5/10/18
 
-### algorithm  SHA-256  secure S, hash H,  algorithm  A,  256 bits for the hash  or 32 bytes or characters gernrated to represent the hash 
+### algorithm  SHA-256  secure S, hash H,  algorithm  A,  256 bits for the hash  or 32 bytes or characters generated to represent the hash 
 
     makes a unique has value (32-byte for each block )
     Its a one way hash from the direction of the data to the hash makes it easy to check blocks see if data has been tampered with 
@@ -25,6 +25,11 @@ This is a basic block. You can see it has been tested in the terminal used "dev-
 
          const SHA256 = require ('crypto-js/sha256');     is a function that generates a unique hash based of data 
 
+![image](https://user-images.githubusercontent.com/25730453/39901948-5105cb24-5499-11e8-98d1-eb70bfcb6c34.png)
+
+    #### note     const hash = 'todo-hash';
+    #### changed to  const hash = Block.hash(timestamp, lastHash, data);
+    
 
 
 
