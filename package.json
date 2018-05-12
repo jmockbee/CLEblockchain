@@ -4,7 +4,7 @@
   "description": "\"\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --watchAll",
     "dev-test": "nodemon dev-test"
   },
   "repository": {
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/jmockbee/CLEblockchain#readme",
   "dependencies": {
     "crypto-js": "^3.1.9-1"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3"
   }
 }

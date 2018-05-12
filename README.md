@@ -11,7 +11,7 @@ This is a basic block. You can see it has been tested in the terminal used "dev-
 ![image](https://user-images.githubusercontent.com/25730453/39791389-6fb05af8-5309-11e8-9ba5-4f228ea4463e.png)
 
 
-##5/10/18
+## 5/10/18
 
 ### algorithm  SHA-256  secure S, hash H,  algorithm  A,  256 bits for the hash  or 32 bytes or characters generated to represent the hash 
 
@@ -27,9 +27,16 @@ This is a basic block. You can see it has been tested in the terminal used "dev-
 
 ![image](https://user-images.githubusercontent.com/25730453/39901948-5105cb24-5499-11e8-98d1-eb70bfcb6c34.png)
 
-    #### note     const hash = 'todo-hash';
-    #### changed to  const hash = Block.hash(timestamp, lastHash, data);
-    
+    ####  note     const hash = 'todo-hash';
+    ####  changed to  const hash = Block.hash(timestamp, lastHash, data);
+
+    ## 5/12/18
+
+![image](https://user-images.githubusercontent.com/25730453/39960232-13722398-55ed-11e8-8ed4-d564d666579e.png)
+        This is installed to automate testing of the blocks 
+
+![image](https://user-images.githubusercontent.com/25730453/39960523-68765026-55f2-11e8-8be8-5e44e46e979a.png)
+        ## important change this to to test correctly in package.json 
 
 
 
