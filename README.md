@@ -38,6 +38,17 @@ This is a basic block. You can see it has been tested in the terminal used "dev-
 ![image](https://user-images.githubusercontent.com/25730453/39960523-68765026-55f2-11e8-8be8-5e44e46e979a.png)
         ## important change this to to test correctly in package.json 
 
+## 5/13/18 
+        Created block chain test file to make sure genesis block was reproducing next block correctly
+        ![image](https://user-images.githubusercontent.com/25730453/39969469-f6764acc-56a9-11e8-8fec-ad2a39cae2f8.png)
+
+## Three things needed to do:
+        1. validate a valid chain
+        2. invalidate a chain with corrupt genesis block
+        3. invalidate any corrupt block in the chain 
+        
+
+![image](https://user-images.githubusercontent.com/25730453/39971699-8598560a-56cd-11e8-88e9-caa8aa8c4221.png)
 
 
 
