@@ -51,5 +51,11 @@ This is a basic block. You can see it has been tested in the terminal used "dev-
 ![image](https://user-images.githubusercontent.com/25730453/39971699-8598560a-56cd-11e8-88e9-caa8aa8c4221.png)
 
 
+## 5/14/18
+## Added more to the blockchain.test.js 
+        1. Chain is replaced if a given chain is valid.
+        2. Chain is not replaced if <= to the length of the current chain 
+        3. Chain is replaced if passes validation test
+
 
 
