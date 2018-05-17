@@ -27,10 +27,10 @@ This is a basic block. You can see it has been tested in the terminal used "dev-
 
 ![image](https://user-images.githubusercontent.com/25730453/39901948-5105cb24-5499-11e8-98d1-eb70bfcb6c34.png)
 
-    ####  note     const hash = 'todo-hash'; ####
-    ####  changed to  const hash = Block.hash(timestamp, lastHash, data); ####
+     note     const hash = 'todo-hash';
+      changed to  const hash = Block.hash(timestamp, lastHash, data); ####
 
-    ## 5/12/18
+## 5/12/18
 
 ![image](https://user-images.githubusercontent.com/25730453/39960232-13722398-55ed-11e8-8ed4-d564d666579e.png)
         This is installed to automate testing of the blocks 
@@ -56,6 +56,16 @@ This is a basic block. You can see it has been tested in the terminal used "dev-
         1. Chain is replaced if a given chain is valid.
         2. Chain is not replaced if <= to the length of the current chain 
         3. Chain is replaced if passes validation test
+### Placed all blockchain files in blockchain folder. 
+### I changed all blockchain file references to index  so as not to get confused 
+### I added app folder to get blocks 
 
+## 5/16/18 Creating API  HTTP request to view blocks I already have 
+Added code to index.js/app 
+changed package.json
+ ![image](https://user-images.githubusercontent.com/25730453/40152268-b14db6c8-5952-11e8-9cf1-23b88b4642a8.png)
+
+### used postman for get request 
+![image](https://user-images.githubusercontent.com/25730453/40152142-f0886b0e-5951-11e8-9209-d7d1b1ab9df9.png)
 
 
