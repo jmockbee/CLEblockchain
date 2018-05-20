@@ -69,3 +69,7 @@ changed package.json
 ![image](https://user-images.githubusercontent.com/25730453/40152142-f0886b0e-5951-11e8-9209-d7d1b1ab9df9.png)
 
 
+### Able to now mine blocks. Note the last hash matches genesis block and it now has own time stamp.
+![image](https://user-images.githubusercontent.com/25730453/40271918-6faacba8-5b72-11e8-9f1b-35fc9757e3b1.png)'
+
+### created peer to peer server using Web Socket Server. Able to broadcast changes in the blockchain 
