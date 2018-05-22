@@ -75,3 +75,5 @@ changed package.json
 ### created peer to peer server using Web Socket Server. Able to broadcast changes in the blockchain 
 ![image](https://user-images.githubusercontent.com/25730453/40280692-4d4a0f20-5c25-11e8-87ea-ac4fce3b0f63.png)
 
+### 5/21/18 gettting messages from peers continued updated p2p-server
+
